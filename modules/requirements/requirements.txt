@@ -1,0 +1,6 @@
+PyQt5>=0
+QtQuick==2.2
+QtQuick.Window>=2.1
+QtWebEngine>=1
+QtQuick.Controls==1.3
+

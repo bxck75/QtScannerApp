@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>763</width>
+    <height>916</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="1" column="0" colspan="6">
+         <layout class="QGridLayout" name="gridLayout_13">
+          <item row="2" column="0">
+           <layout class="QGridLayout" name="gridLayout_4">
+            <item row="8" column="0">
+             <layout class="QFormLayout" name="formLayout_3">
+              <property name="fieldGrowthPolicy">
+               <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+              </property>
+              <item row="1" column="1">
+               <widget class="QPlainTextEdit" name="plainTextEdit_3"/>
+              </item>
+              <item row="0" column="1">
+               <widget class="QLabel" name="labelEditscreen_3">
+                <property name="text">
+                 <string>labelEditScreenText_3</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="2" column="0">
+             <layout class="QFormLayout" name="formLayout_1">
+              <property name="fieldGrowthPolicy">
+               <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+              </property>
+              <item row="2" column="0" colspan="2">
+               <widget class="QPlainTextEdit" name="plainTextEdit_1"/>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLabel" name="labelEditscreen_1">
+                <property name="text">
+                 <string>labelEditScreenText_1</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="11" column="0">
+             <layout class="QFormLayout" name="formLayout_4">
+              <property name="fieldGrowthPolicy">
+               <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+              </property>
+              <item row="0" column="1">
+               <widget class="QLabel" name="labelEditscreen_4">
+                <property name="text">
+                 <string>labelEditScreenText_3</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QPlainTextEdit" name="plainTextEdit_4"/>
+              </item>
+             </layout>
+            </item>
+            <item row="5" column="0">
+             <layout class="QFormLayout" name="formLayout_2">
+              <property name="fieldGrowthPolicy">
+               <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+              </property>
+              <item row="0" column="1">
+               <widget class="QLabel" name="labelEditscreen_2">
+                <property name="text">
+                 <string>labelEditScreenText_2</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QPlainTextEdit" name="plainTextEdit_2"/>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item row="1" column="0">
+           <layout class="QFormLayout" name="formLayout_9">
+            <item row="3" column="0" colspan="2">
+             <widget class="QListWidget" name="listWidget"/>
+            </item>
+            <item row="1" column="1">
+             <widget class="QToolButton" name="listWidget_Save">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Save Log</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="0" column="0">
+           <layout class="QGridLayout" name="gridLayout_12">
+            <item row="1" column="0">
+             <widget class="QCommandLinkButton" name="commandLinkButton">
+              <property name="text">
+               <string>CommandLinkButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="2">
+             <widget class="QPushButton" name="pushButton_2">
+              <property name="text">
+               <string>NmapCustom</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="4">
+             <widget class="QPushButton" name="pushButton_3">
+              <property name="text">
+               <string>Inurlbr</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="6">
+             <widget class="QToolButton" name="SaveButtonText_4">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <family>Latin Modern Sans Quotation</family>
+                <pointsize>14</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">padding: 2px;
+font: 14pt &quot;Latin Modern Sans Quotation&quot;;</string>
+              </property>
+              <property name="text">
+               <string>S-4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="5">
+             <widget class="QToolButton" name="refreshButtonEditbox_3">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <family>Latin Modern Sans Quotation</family>
+                <pointsize>14</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">padding: 2px;
+font: 14pt &quot;Latin Modern Sans Quotation&quot;;</string>
+              </property>
+              <property name="text">
+               <string>R-3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="4">
+             <widget class="QCommandLinkButton" name="commandLinkButton_3">
+              <property name="text">
+               <string>CommandLinkButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QCommandLinkButton" name="commandLinkButton_2">
+              <property name="text">
+               <string>CommandLinkButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="5">
+             <widget class="QToolButton" name="refreshButtonEditbox_2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <family>Latin Modern Sans Quotation</family>
+                <pointsize>14</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">padding: 2px;
+font: 14pt &quot;Latin Modern Sans Quotation&quot;;</string>
+              </property>
+              <property name="text">
+               <string>R-2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="2">
+             <widget class="QComboBox" name="comboBox_5"/>
+            </item>
+            <item row="5" column="4">
+             <widget class="QComboBox" name="comboBox_6"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="QComboBox" name="comboBox"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="QComboBox" name="comboBox_2"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="QComboBox" name="comboBox_4"/>
+            </item>
+            <item row="3" column="4">
+             <widget class="QComboBox" name="comboBox_3"/>
+            </item>
+            <item row="1" column="3" rowspan="7">
+             <spacer name="verticalSpacer_3">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="1" column="1" rowspan="7">
+             <spacer name="verticalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="7" column="0">
+             <widget class="QPushButton" name="pushButton_1">
+              <property name="text">
+               <string>NmapRandom</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="6">
+             <widget class="QToolButton" name="SaveButtonText_2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <family>Latin Modern Sans Quotation</family>
+                <pointsize>14</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">padding: 2px;
+font: 14pt &quot;Latin Modern Sans Quotation&quot;;</string>
+              </property>
+              <property name="text">
+               <string>S-2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="6">
+             <widget class="QToolButton" name="SaveButtonText_3">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <family>Latin Modern Sans Quotation</family>
+                <pointsize>14</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">padding: 2px;
+font: 14pt &quot;Latin Modern Sans Quotation&quot;;</string>
+              </property>
+              <property name="text">
+               <string>S-3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="5">
+             <widget class="QToolButton" name="refreshButtonEditbox_4">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <family>Latin Modern Sans Quotation</family>
+                <pointsize>14</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">padding: 2px;
+font: 14pt &quot;Latin Modern Sans Quotation&quot;;</string>
+              </property>
+              <property name="text">
+               <string>R-4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="5">
+             <widget class="QToolButton" name="refreshButtonEditbox_1">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <family>Latin Modern Sans Quotation</family>
+                <pointsize>14</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>R-1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="6">
+             <widget class="QToolButton" name="SaveButtonText_1">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <family>Latin Modern Sans Quotation</family>
+                <pointsize>14</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">padding: 2px;
+font: 14pt &quot;Latin Modern Sans Quotation&quot;;</string>
+              </property>
+              <property name="text">
+               <string>S-1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="5">
+             <widget class="QSlider" name="horizontalSlider_Nmap_Random">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="6">
+             <widget class="QSlider" name="horizontalSlider_Inurlbr_Pages">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLineEdit" name="lineEdit"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="QLineEdit" name="lineEdit_2"/>
+            </item>
+            <item row="2" column="4">
+             <widget class="QLineEdit" name="lineEdit_3"/>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="0">
+         <widget class="QComboBox" name="comboBox_7">
+          <item>
+           <property name="text">
+            <string>Page 1</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <selectedon>resource/Scanner.jpg</selectedon>
+            </iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Page 2</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="1" column="0">
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0">
+           <layout class="QGridLayout" name="gridLayout_10">
+            <item row="8" column="0">
+             <layout class="QFormLayout" name="formLayout_5">
+              <property name="fieldGrowthPolicy">
+               <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+              </property>
+              <item row="1" column="1">
+               <widget class="QPlainTextEdit" name="plainTextEdit_5"/>
+              </item>
+              <item row="0" column="1">
+               <widget class="QLabel" name="labelEditscreen_5">
+                <property name="text">
+                 <string>labelEditScreenText_3</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="2" column="0">
+             <layout class="QFormLayout" name="formLayout_6">
+              <property name="fieldGrowthPolicy">
+               <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+              </property>
+              <item row="1" column="0">
+               <widget class="QLabel" name="labelEditscreen_6">
+                <property name="text">
+                 <string>labelEditScreenText_1</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0" colspan="2">
+               <widget class="QPlainTextEdit" name="plainTextEdit_6"/>
+              </item>
+             </layout>
+            </item>
+            <item row="11" column="0">
+             <layout class="QFormLayout" name="formLayout_7">
+              <property name="fieldGrowthPolicy">
+               <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+              </property>
+              <item row="0" column="1">
+               <widget class="QLabel" name="labelEditscreen_7">
+                <property name="text">
+                 <string>labelEditScreenText_3</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QPlainTextEdit" name="plainTextEdit_7"/>
+              </item>
+             </layout>
+            </item>
+            <item row="5" column="0">
+             <layout class="QFormLayout" name="formLayout_8">
+              <property name="fieldGrowthPolicy">
+               <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+              </property>
+              <item row="0" column="1">
+               <widget class="QLabel" name="labelEditscreen_8">
+                <property name="text">
+                 <string>labelEditScreenText_2</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QPlainTextEdit" name="plainTextEdit_8"/>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_3">
+       <layout class="QGridLayout" name="gridLayout_11">
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="1" column="1">
+           <layout class="QGridLayout" name="gridLayout_7">
+            <item row="0" column="4">
+             <layout class="QHBoxLayout" name="horizontalLayout_4"/>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_4"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>763</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

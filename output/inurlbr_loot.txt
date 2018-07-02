@@ -1,0 +1,11 @@
+https://www.byte.nl/kennisbank/hackabuse/php-scripts-veiliger-maken
+https://www.tecmint.com/run-php-codes-from-linux-commandline/
+http://blog.teamtreehouse.com/how-to-debug-in-php
+https://interconnectit.com/products/search-and-replace-for-wordpress-databases/
+https://phpfashion.com/twitter-for-php
+https://support.hostgator.com/articles/what-is-php-ini
+http://www.w3school.com.cn/php/php_includes.asp
+https://www.phptherightway.com/
+https://www.toptal.com/php/10-most-common-mistakes-php-programmers-make
+http://gratisforums.com/circuitsneakers/viewtopic.php?t=76
+http://www.oocities.org/tommykesepian/string4

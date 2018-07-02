@@ -1,0 +1,14 @@
+-Pn -n -iR 100 --open -vvv
+-Pn -n -iR 10 --open -vvv
+-Pn -n -iR 50 --open -vvv
+-Pn -n  -Pn --open -vvv
+-Pn -n -vvv --open -sV --top-ports 5
+-Pn -n
+-Pn -n --open
+-Pn -n -iR 100 --open -vvv
+-Pn -n -iR 10 --open -vvv
+-Pn -n -iR 50 --open -vvv
+-Pn -n  -Pn --open -vvv
+-Pn -n -vvv --open -sV --top-ports 5
+-Pn -n
+-Pn -n --open
